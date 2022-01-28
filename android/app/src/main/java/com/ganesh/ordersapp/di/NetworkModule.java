@@ -1,4 +1,4 @@
-package com.ordersapp.di;
+package com.ganesh.ordersapp.di;
 
 import com.squareup.moshi.Moshi;
 

@@ -1,4 +1,4 @@
-package com.ordersapp.view;
+package com.ganesh.ordersapp.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
@@ -9,13 +9,12 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
 
-import com.ordersapp.MainApplication;
-import com.ordersapp.R;
-import com.ordersapp.db.Orders;
-import com.ordersapp.db.OrdersDatabase;
-import com.ordersapp.network.OrdersService;
-import com.ordersapp.view.adapter.OrdersListAdapter;
-import com.squareup.moshi.Moshi;
+import com.ganesh.ordersapp.MainApplication;
+import com.ganesh.ordersapp.R;
+import com.ganesh.ordersapp.db.Orders;
+import com.ganesh.ordersapp.db.OrdersDatabase;
+import com.ganesh.ordersapp.network.OrdersService;
+import com.ganesh.ordersapp.view.adapter.OrdersListAdapter;
 
 import org.json.JSONObject;
 
@@ -23,11 +22,7 @@ import javax.inject.Inject;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
-import okhttp3.OkHttpClient;
-import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
-import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
-import retrofit2.converter.moshi.MoshiConverterFactory;
 
 public class OrdersListActivity extends AppCompatActivity implements OrdersListAdapter.OrderClickListener {
 

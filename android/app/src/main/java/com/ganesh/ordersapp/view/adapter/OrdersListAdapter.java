@@ -1,4 +1,4 @@
-package com.ordersapp.view.adapter;
+package com.ganesh.ordersapp.view.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,8 +9,8 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.ordersapp.R;
-import com.ordersapp.db.Orders;
+import com.ganesh.ordersapp.R;
+import com.ganesh.ordersapp.db.Orders;
 
 
 import java.util.ArrayList;

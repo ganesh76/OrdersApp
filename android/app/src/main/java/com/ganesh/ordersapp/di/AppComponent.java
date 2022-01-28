@@ -1,6 +1,6 @@
-package com.ordersapp.di;
+package com.ganesh.ordersapp.di;
 
-import com.ordersapp.view.OrdersListActivity;
+import com.ganesh.ordersapp.view.OrdersListActivity;
 
 import dagger.Component;
 

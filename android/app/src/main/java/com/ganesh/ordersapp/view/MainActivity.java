@@ -1,4 +1,4 @@
-package com.ordersapp.view;
+package com.ganesh.ordersapp.view;
 
 import com.facebook.react.ReactActivity;
 

@@ -1,4 +1,4 @@
-package com.ordersapp.network;
+package com.ganesh.ordersapp.network;
 
 import com.squareup.moshi.Json;
 

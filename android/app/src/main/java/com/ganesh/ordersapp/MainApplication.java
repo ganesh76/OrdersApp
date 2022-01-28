@@ -1,11 +1,9 @@
-package com.ordersapp;
+package com.ganesh.ordersapp;
 
 import android.app.Application;
 import android.content.Context;
 import android.util.Log;
-import android.widget.Toast;
 
-import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
 import com.facebook.react.BuildConfig;
@@ -15,11 +13,11 @@ import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
-import com.ordersapp.db.OrdersDatabase;
-import com.ordersapp.di.AppComponent;
-import com.ordersapp.di.DaggerAppComponent;
-import com.ordersapp.di.NetworkModule;
-import com.ordersapp.reactnative.OrdersPackage;
+import com.ganesh.ordersapp.db.OrdersDatabase;
+import com.ganesh.ordersapp.di.AppComponent;
+import com.ganesh.ordersapp.di.DaggerAppComponent;
+import com.ganesh.ordersapp.di.NetworkModule;
+import com.ganesh.ordersapp.reactnative.OrdersPackage;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
@@ -101,7 +99,7 @@ public class MainApplication extends Application implements ReactApplication {
          We use reflection here to pick up the class that initializes Flipper,
         since Flipper library is not available in release mode
         */
-                Class<?> aClass = Class.forName("com.ordersapp.ReactNativeFlipper");
+                Class<?> aClass = Class.forName("com.ganesh.ordersapp.ReactNativeFlipper");
                 aClass
                         .getMethod("initializeFlipper", Context.class, ReactInstanceManager.class)
                         .invoke(null, context, reactInstanceManager);

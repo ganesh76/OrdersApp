@@ -1,12 +1,11 @@
-package com.ordersapp.network;
+package com.ganesh.ordersapp.network;
 
-import com.ordersapp.db.Orders;
+import com.ganesh.ordersapp.db.Orders;
 
 import java.util.List;
 
 
 import io.reactivex.Observable;
-import io.reactivex.Single;
 import retrofit2.http.GET;
 
 public interface OrdersService {

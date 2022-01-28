@@ -1,4 +1,4 @@
-package com.ordersapp.db;
+package com.ganesh.ordersapp.db;
 
 import android.content.Context;
 

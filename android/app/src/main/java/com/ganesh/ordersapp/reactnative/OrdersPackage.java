@@ -1,4 +1,4 @@
-package com.ordersapp.reactnative;
+package com.ganesh.ordersapp.reactnative;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;

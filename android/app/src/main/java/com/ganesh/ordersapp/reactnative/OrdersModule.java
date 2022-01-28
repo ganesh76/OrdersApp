@@ -1,4 +1,4 @@
-package com.ordersapp.reactnative;
+package com.ganesh.ordersapp.reactnative;
 
 import android.content.Context;
 import android.widget.Toast;
@@ -7,7 +7,7 @@ import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
-import com.ordersapp.MainApplication;
+import com.ganesh.ordersapp.MainApplication;
 
 public class OrdersModule extends ReactContextBaseJavaModule {
     private Context context;

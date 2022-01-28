@@ -1,13 +1,11 @@
-package com.ordersapp.db;
+package com.ganesh.ordersapp.db;
 
 import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
-import androidx.room.Update;
 
 import java.util.List;
-import java.util.Observable;
 
 import io.reactivex.Completable;
 import io.reactivex.Single;
