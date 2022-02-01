@@ -1,7 +1,7 @@
 # OrdersApp
  
 ## Sample demo of react native app showing cross platform data exchange across native and react native screens
-## Used Native modules concept to implement the bridge between native screen and react native 
+## Used React Native modules concept to implement the bridge between native screen and react native 
 ## Native screen recycler list view saved in room db.
 ## Used Retrofit with dagger 2 for native screen
 ## sample screens -
